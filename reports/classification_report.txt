@@ -1,0 +1,3 @@
+Selected model: LogisticRegression\nSelection metric: High-risk F1-score\n             model  accuracy  high_risk_precision  high_risk_recall  high_risk_f1
+LogisticRegression  0.920000             0.933333          0.933333      0.933333
+      RandomForest  0.866667             0.906977          0.866667      0.886364

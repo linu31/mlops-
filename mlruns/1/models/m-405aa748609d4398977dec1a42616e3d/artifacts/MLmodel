@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/hemch/OneDrive/Desktop/mlops/mlruns/1/models/m-405aa748609d4398977dec1a42616e3d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+mlflow_version: 3.18.0
+model_id: m-405aa748609d4398977dec1a42616e3d
+model_size_bytes: 111582
+model_uuid: m-405aa748609d4398977dec1a42616e3d
+prompts: null
+run_id: 1e1e5ce01a8e4e2999c71b5e0f6a3849
+utc_time_created: '2026-11-18 09:17:59.146008'
